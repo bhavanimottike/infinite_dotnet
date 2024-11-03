@@ -9,6 +9,7 @@ namespace ConsoleApp1
     {
         public static void SwapNo()
         {
+            Console.WriteLine("QUESTION1");
             Console.WriteLine("enter a number");
             string a = Console.ReadLine();
             Console.WriteLine("Enter second number");
@@ -24,6 +25,7 @@ namespace ConsoleApp1
 
         public static void DisplayNo()
         {
+            Console.WriteLine("QUESTION2");
             Console.WriteLine("enter a number");
             string d = Console.ReadLine();
             string e = d + " ";
@@ -48,8 +50,33 @@ namespace ConsoleApp1
             Console.WriteLine();
         }
 
+        public static void Patternno()
+        {
+            Console.WriteLine("enter a digit");
+            string z = Console.ReadLine();
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine();
+                for(int j=0;j<4;j++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        Console.Write("{0} ", z);
+                    }
+                    else Console.Write("{0}", z);
+
+
+                    
+
+                }
+                
+            }
+            Console.WriteLine();
+        }
+
         public static void Days()
         {
+            Console.WriteLine("QUESTION3");
             int day;
             Console.WriteLine("enter your day");
             day = Convert.ToInt32(Console.ReadLine());
@@ -88,6 +115,7 @@ namespace ConsoleApp1
 
         public static void BasicArray()
         {
+            Console.WriteLine("QUESTION3");
             int[] arr = new int[5];
             int temp = 0;
             for (int i = 0; i < 5; i++)
@@ -130,6 +158,7 @@ namespace ConsoleApp1
 
         public static void Marks()
         {
+            Console.WriteLine("QUESTION4");
             int[] studentmarks = new int[10];
             int use = 0;
             for (int i = 0; i < 10; i++) 
@@ -184,6 +213,7 @@ namespace ConsoleApp1
         }
          public static void Copyarr()
         {
+            Console.WriteLine("QUESTION5");
             int[] array1=new int []  { 5,10,3,20,25};
             int[] array2 = new int[5];
           for(int z=0;z< 5;z++)
@@ -212,12 +242,15 @@ namespace ConsoleApp1
         {
             public static void Main()
             {
-                assign.SwapNo();
-                assign.DisplayNo();
-                assign.Days();
-                assign.BasicArray();
+                 
+            assign.SwapNo();
+            assign.DisplayNo();
+            assign.Patternno();
+            assign.Days();
+            assign.BasicArray();
             assign.Marks();
             assign.Copyarr();
+            
                 Console.Read();
                 
 
