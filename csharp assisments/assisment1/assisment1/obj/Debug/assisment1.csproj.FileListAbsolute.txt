@@ -1,0 +1,7 @@
+C:\dotnet_official\csharp assisments\assisment1\assisment1\bin\Debug\assisment1.exe.config
+C:\dotnet_official\csharp assisments\assisment1\assisment1\bin\Debug\assisment1.exe
+C:\dotnet_official\csharp assisments\assisment1\assisment1\bin\Debug\assisment1.pdb
+C:\dotnet_official\csharp assisments\assisment1\assisment1\obj\Debug\assisment1.csproj.AssemblyReference.cache
+C:\dotnet_official\csharp assisments\assisment1\assisment1\obj\Debug\assisment1.csproj.CoreCompileInputs.cache
+C:\dotnet_official\csharp assisments\assisment1\assisment1\obj\Debug\assisment1.exe
+C:\dotnet_official\csharp assisments\assisment1\assisment1\obj\Debug\assisment1.pdb
