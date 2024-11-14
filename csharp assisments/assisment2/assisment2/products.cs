@@ -17,7 +17,7 @@ namespace assisment2
         static void Main()
         {
             List<products> productdetails = new List<products>();
-             for(int i =1;i <3; i++)
+             for(int i =1;i <11; i++)
             {
                 Console.WriteLine("enter product {0} details", i);
                 Console.WriteLine("product id");
