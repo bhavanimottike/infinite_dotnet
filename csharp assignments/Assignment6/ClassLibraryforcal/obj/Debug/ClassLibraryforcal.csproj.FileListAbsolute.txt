@@ -1,0 +1,6 @@
+C:\dotnet_official\csharp assignments\Assignment6\ClassLibraryforcal\bin\Debug\ClassLibraryforcal.dll
+C:\dotnet_official\csharp assignments\Assignment6\ClassLibraryforcal\bin\Debug\ClassLibraryforcal.pdb
+C:\dotnet_official\csharp assignments\Assignment6\ClassLibraryforcal\obj\Debug\ClassLibraryforcal.csproj.AssemblyReference.cache
+C:\dotnet_official\csharp assignments\Assignment6\ClassLibraryforcal\obj\Debug\ClassLibraryforcal.csproj.CoreCompileInputs.cache
+C:\dotnet_official\csharp assignments\Assignment6\ClassLibraryforcal\obj\Debug\ClassLibraryforcal.dll
+C:\dotnet_official\csharp assignments\Assignment6\ClassLibraryforcal\obj\Debug\ClassLibraryforcal.pdb

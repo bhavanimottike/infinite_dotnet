@@ -1,0 +1,13 @@
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe.config
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\bin\Debug\Assignment6.pdb
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.CoreCompileInputs.cache
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\obj\Debug\Assignment6.exe
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\obj\Debug\Assignment6.pdb
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\bin\Debug\classdrive.exe
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\bin\Debug\ClassLibraryforcal.dll
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\bin\Debug\classdrive.pdb
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\bin\Debug\classdrive.exe.config
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\bin\Debug\ClassLibraryforcal.pdb
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.AssemblyReference.cache
+C:\dotnet_official\csharp assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.CopyComplete
