@@ -15,7 +15,7 @@ namespace Assisment_3
             String filePath = Console.ReadLine();
                 FileStream objf = new FileStream("newfile1.txt", FileMode.Append, FileAccess.Write);
                 StreamWriter stw = new StreamWriter(objf);
-                Console.WriteLine("Enter a array length :");
+                Console.WriteLine("Enter data :");
                string data = Console.ReadLine();
                 
                stw.WriteLine(data);
@@ -26,11 +26,11 @@ namespace Assisment_3
                 stw.Close();
                 objf.Close();
             }
-        //public static void Main(string[] args)
-        //{
-        //    filetextappend.chech_file();
-        //    Console.Read();
-        //}
+        public static void Main(string[] args)
+        {
+            filetextappend.chech_file();
+            Console.Read();
+        }
     }
 }
 

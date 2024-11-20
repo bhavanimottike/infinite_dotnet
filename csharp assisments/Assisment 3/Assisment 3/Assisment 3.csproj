@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assisment_3.deligate</StartupObject>
+    <StartupObject>Assisment_3.Test</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
