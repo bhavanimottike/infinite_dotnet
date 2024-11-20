@@ -1,0 +1,7 @@
+C:\dotnet_official\csharp assisments\Assisment 3\Assisment 3\bin\Debug\Assisment 3.exe.config
+C:\dotnet_official\csharp assisments\Assisment 3\Assisment 3\bin\Debug\Assisment 3.exe
+C:\dotnet_official\csharp assisments\Assisment 3\Assisment 3\bin\Debug\Assisment 3.pdb
+C:\dotnet_official\csharp assisments\Assisment 3\Assisment 3\obj\Debug\Assisment 3.csproj.AssemblyReference.cache
+C:\dotnet_official\csharp assisments\Assisment 3\Assisment 3\obj\Debug\Assisment 3.csproj.CoreCompileInputs.cache
+C:\dotnet_official\csharp assisments\Assisment 3\Assisment 3\obj\Debug\Assisment 3.exe
+C:\dotnet_official\csharp assisments\Assisment 3\Assisment 3\obj\Debug\Assisment 3.pdb
