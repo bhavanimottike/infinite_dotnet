@@ -41,8 +41,7 @@ namespace Assisment_3
             Console.WriteLine("enter breadth of box 2");
             int breadth2 = int.Parse(Console.ReadLine());
             Box b2 = new Box(length2, breadth2);
-            Console.WriteLine("box 3 length",length1 + length2);
-            Console.WriteLine("box 3 breadth",breadth1 + breadth2);
+           
 
             Console.Read();
 

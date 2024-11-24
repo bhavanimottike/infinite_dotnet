@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment6
 
-//3.	Create a list of employees with following property EmpId, EmpName, EmpCity, EmpSalary.Populate some data
-//Write a program for following requirement
-//a.To display all employees data
-//b.To display all employees data whose salary is greater than 45000
-//c.To display all employees data who belong to Bangalore Region
-//d.To display all employees data by their names is Ascending order
+
 {
     class Employeedetails
     {
