@@ -25,13 +25,15 @@ CREATE TABLE EMPLOYEE2(EMPNO INT PRIMARY KEY ,ENAME VARCHAR(20),SAL INT,DOJ DATE
   INSERT INTO EMPLOYEE2 VALUES(3,'SHIVANI',300,'2022-09-22')
    INSERT INTO EMPLOYEE2 VALUES(2,'DEEPTHI',900,'2009-08-28')
 
-   SELECT * FROM EMPLOYEE2
+   SELECT * FROM  EMPLOYEE2
 
-   UPDATE EMPLOYEE2 SET SAL = SAL *0.15 where EMPNO =2
+   UPDATE EMPLOYEE2 SET SAL = SAL * 0.15 where EMPNO =2
    save tran t1
    delete from EMPLOYEE2 where EMPNO =1
-
+   
    rollback tran t1
+  
+
 
  
 
@@ -51,7 +53,7 @@ CREATE TABLE EMPLOYEE2(EMPNO INT PRIMARY KEY ,ENAME VARCHAR(20),SAL INT,DOJ DATE
   @deptno int,
   @sal float
   )
-  returns decimal(18,2)
+  returns float
   as 
   begin
   declare @Bonus float;

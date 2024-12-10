@@ -1,0 +1,7 @@
+C:\dotnet_official\ado assignments\ado_assignment1\ado_assignment1\obj\Debug\ado_assignment1.csproj.AssemblyReference.cache
+C:\dotnet_official\ado assignments\ado_assignment1\ado_assignment1\obj\Debug\ado_assignment1.csproj.CoreCompileInputs.cache
+C:\dotnet_official\ado assignments\ado_assignment1\ado_assignment1\bin\Debug\ado_assignment1.exe.config
+C:\dotnet_official\ado assignments\ado_assignment1\ado_assignment1\bin\Debug\ado_assignment1.exe
+C:\dotnet_official\ado assignments\ado_assignment1\ado_assignment1\bin\Debug\ado_assignment1.pdb
+C:\dotnet_official\ado assignments\ado_assignment1\ado_assignment1\obj\Debug\ado_assignment1.exe
+C:\dotnet_official\ado assignments\ado_assignment1\ado_assignment1\obj\Debug\ado_assignment1.pdb
