@@ -1,0 +1,2 @@
+C:\dotnet_official\sql assisments\cc6\cc6\obj\Debug\cc6.csproj.AssemblyReference.cache
+C:\dotnet_official\sql assisments\cc6\cc6\obj\Debug\cc6.csproj.CoreCompileInputs.cache
