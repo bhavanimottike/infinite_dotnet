@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>cal_mul_div</title>
+</head>
+<body>
+    <form id="calc" method="post" action="Q-1.html">
+        number1 : &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" name="n1" id="no1" />
+
+        <br /><br />
+        number2 : &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" name="n2" id="no2" />
+        <br /><br />
+        <button id="multi" onclick="Multiplication()" type="button">Multiplication</button>
+        <br /><br />
+        <button id="division" onclick="Division()" type="button">Division</button>
+        <br />
+        <br /><br />
+        <p id="ans">The answer is : </p>
+        
+        <script>
+            function Multiplication() {
+                var x = document.getElementById('no1').value;
+                var y = document.getElementById('no2').value;
+                var output1 = x * y;
+                document.getElementById('ans').innerHTML = "Multiplication : " + output1;
+            }
+            function Division() {
+                var x = document.getElementById('no1').value;
+                var y = document.getElementById('no2').value;
+                var output2 = x / y;
+                document.getElementById('ans').innerHTML = "Division : " +output2;
+            }
+        </script>
+    </form>
+
+</body>
+
+
+
+<body>
+    <script>
+       
+        for (var i = 0; i <= 15; i++) {
+            if (i % 2 === 0) {
+                document.write(i + "  " + " is even number<br />");
+            }
+            else {
+                document.write(i + "   " + "  is Odd number<br />");
+            }
+        }
+    </script>
+</body>
+</html>
+
