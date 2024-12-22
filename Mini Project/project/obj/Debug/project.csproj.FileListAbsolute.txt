@@ -1,0 +1,7 @@
+C:\C SHARP PRACTICE\project\project\bin\Debug\project.exe.config
+C:\C SHARP PRACTICE\project\project\bin\Debug\project.exe
+C:\C SHARP PRACTICE\project\project\bin\Debug\project.pdb
+C:\C SHARP PRACTICE\project\project\obj\Debug\project.csproj.AssemblyReference.cache
+C:\C SHARP PRACTICE\project\project\obj\Debug\project.csproj.CoreCompileInputs.cache
+C:\C SHARP PRACTICE\project\project\obj\Debug\project.exe
+C:\C SHARP PRACTICE\project\project\obj\Debug\project.pdb
