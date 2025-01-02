@@ -1,0 +1,35 @@
+﻿
+@model IEnumerable<MVCAssessment.Models.Customer>
+
+@{
+                ViewBag.Title = "Customers";
+
+}
+
+<h2>Customers  In  Germany</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>CustomerID</th>
+            <th>CompanyName</th>
+            <th>ContactName</th>
+            <th>ContactTitle</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var customer in Model)
+
+        {
+<tr>
+    <td>@customer.CustomerID</td>
+    <td>@customer.CompanyName</td>
+    <td>@customer.ContactName</td>
+    <td>@customer.ContactTitle</td>
+</tr>
+            }
+    </tbody>
+</table>
+
+
