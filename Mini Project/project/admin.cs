@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace project
 {
@@ -19,7 +20,8 @@ namespace project
                 Console.WriteLine("ENETER 1 FOR  Add Train");
                 Console.WriteLine("ENTER 2 FOR Delete Train");
                 Console.WriteLine("ENTER 3 FOR Modify Train");
-                Console.WriteLine("ENTER 4 FOR Exit....BACK TO MENU");
+                Console.WriteLine("PRESS 4 TO DISPLAY ALL TRAINS");
+                Console.WriteLine("ENTER 5 FOR Exit....BACK TO MENU");
                 Console.WriteLine("Enter your choice: ");
                 Console.WriteLine("____________________________________");
 
@@ -39,6 +41,9 @@ namespace project
                         ModifyTrain();
                         break;
                     case 4:
+                        availableTrains();
+                        break;
+                    case 5:
 
                         return;
                     default:
@@ -60,7 +65,7 @@ namespace project
             string source = Console.ReadLine();
             Console.Write("Enter Destination: ");
             string destination = Console.ReadLine();
-            Console.WriteLine("enter date (YYYY-MM-DD)");
+            Console.WriteLine("enter date of train to start journey (YYYY-MM-DD)");
             DateTime dateofTrain = DateTime.Parse(Console.ReadLine());
             Console.WriteLine("____________________________________");
 
@@ -85,14 +90,14 @@ namespace project
                     cmd.ExecuteNonQuery();
                 }
             }
-            catch(SqlException EX)
+            catch (SqlException EX)
             {
                 Console.WriteLine("ERROR OCCURED:{0}", EX.Message);
                 return;
 
             }
 
-           
+
             //Console.Write("Enter AvailableSeats: ");
             //int AvailableSeats = int.Parse(Console.ReadLine());
             //Console.Write("Enter PricePerTicket: ");
@@ -103,7 +108,7 @@ namespace project
 
             Console.WriteLine("enter no of classes,maximum 3");
             int numofclasses = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= numofclasses; i++) 
+            for (int i = 1; i <= numofclasses; i++)
             {
                 Console.WriteLine("Enter Train Class: (1st class ,2nd class, sleeper are available)");
                 string Class = Console.ReadLine();
@@ -111,7 +116,7 @@ namespace project
                 int AvailableSeats = int.Parse(Console.ReadLine());
                 Console.Write("Enter PricePerTicket: ");
                 decimal PricePerTicket = decimal.Parse(Console.ReadLine());
-              
+
                 using (SqlConnection connection = DatabaseHelper.GetConnection())
                 using (SqlCommand cmd = new SqlCommand(query, connection))
                 {
@@ -196,7 +201,7 @@ namespace project
                     column = "Destination";
                     break;
                 case 4:
-                    column="dateofTrain";
+                    column = "dateofTrain";
                     break;
                 default:
                     Console.WriteLine("Invalid choice.");
@@ -214,7 +219,7 @@ namespace project
 
 
 
-                cmd.Parameters.AddWithValue("@NewValue",newValue);
+                cmd.Parameters.AddWithValue("@NewValue", newValue);
                 cmd.Parameters.AddWithValue("@TrainNumber", trainNumber);
                 connection.Close();
                 connection.Open();
@@ -226,8 +231,34 @@ namespace project
             Console.WriteLine("____________________________________");
 
         }
-         
+
+        private static void availableTrains()
+        {
+            using (SqlConnection con = DatabaseHelper.GetConnection())
+            {
+                using (var updateCmd = new SqlCommand("Get_availableTrains_admin", con))
+                {
+                    updateCmd.CommandType = CommandType.StoredProcedure;
+                    //updateCmd.ExecuteNonQuery();
+                    //updateCmd.ExecuteScalar();
+
+
+                    Console.WriteLine("TrainNumber |\tTrainName |\tSource |\tDestination|\tdeletedtrain|\tdateofTrain");
+                    SqlDataReader reader = updateCmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+
+                        Console.WriteLine($"{reader["TrainNumber"]}  |{reader["TrainName"]}     |{reader["Source"]}    |{reader["Destination"]} |{reader["isdeleted"]}|{reader["dateofTrain"]}");
+
+                        Console.WriteLine("________________________________________________________________________");
+                    }
+                }
+            }
+        }
+
+
     }
+
     
 }
 

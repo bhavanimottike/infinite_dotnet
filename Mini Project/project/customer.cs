@@ -22,7 +22,7 @@ namespace project
                 Console.WriteLine("PRESS 5. FOR  Exit");
                 Console.WriteLine("____________________________________");
 
-                Console.Write("Enter your choice: ");
+                Console.WriteLine("Enter your choice: ");
                 int choice = int.Parse(Console.ReadLine());
                 Console.WriteLine("____________________________________");
 
@@ -225,6 +225,7 @@ namespace project
 
                         Console.WriteLine($"\nBooking Confirmed! Total Price: {totalPrice:C}");
                         Console.WriteLine("the number of tickets bookes {0}", ticketsNeeded);
+                        Console.WriteLine("PLEASE NOTE CUSTOMER ID FOR FURTHER REFERENCE");
                     }
                 
                 Console.WriteLine();
@@ -311,12 +312,12 @@ namespace project
         {
             Console.WriteLine("how many tickets want to cancel");
             int cal_tic = int.Parse(Console.ReadLine());
-            
-            for (int i = 1; i < cal_tic; i++)
+
+            for (int i = 1; i <=cal_tic; i++)
             {
 
 
-              
+
                 Console.Write("Enter Customer ID: ");
                 int customerId = int.Parse(Console.ReadLine());
                 string select_query = "SELECT TrainNumber,Class from customers where customerid = @customerid";
@@ -340,7 +341,7 @@ namespace project
                             else
                             {
                                 Console.WriteLine("customer id not fount...");
-                                    continue;
+                                continue;
                             }
                         }
                     }
@@ -371,11 +372,14 @@ namespace project
 
                     Console.WriteLine($"Booking Cancelled for customer id {customerId}. ");
                     Console.WriteLine("_______________________________________________");
+                    
+
 
 
 
                 }
             }
+            
             Console.WriteLine("all requested tickets have been  Cancelled. Refund will be processed within 3 working days.");
 
 

@@ -33,17 +33,19 @@ CREATE TABLE Customers (
 
 select * from Trains
 select * from Customers
+
 select * from Classes
 
 
-
-
+----------------------------------------------------------
 create or alter proc Get_availableTrains
 as
 begin
    select * from Trains where IsDeleted =0
    end
 
+
+ -----------------------------------------------------------
 create or alter proc GET_CUSTOMERDETAILS(@ticketsNeeded int)
 as
 begin
@@ -54,9 +56,17 @@ begin
 	   end
 
 	   select top (@ticketsNeeded) * from Customers order by CustomerID desc
-
    
    end
+
+
+
+   create or alter proc Get_availableTrains_admin
+as
+begin
+   select * from Trains
+   end
+
 
 
 

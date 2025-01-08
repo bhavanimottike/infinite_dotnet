@@ -5,3 +5,10 @@ C:\C SHARP PRACTICE\project\project\obj\Debug\project.csproj.AssemblyReference.c
 C:\C SHARP PRACTICE\project\project\obj\Debug\project.csproj.CoreCompileInputs.cache
 C:\C SHARP PRACTICE\project\project\obj\Debug\project.exe
 C:\C SHARP PRACTICE\project\project\obj\Debug\project.pdb
+C:\dotnet_official\Mini Project\project\bin\Debug\project.exe.config
+C:\dotnet_official\Mini Project\project\bin\Debug\project.exe
+C:\dotnet_official\Mini Project\project\bin\Debug\project.pdb
+C:\dotnet_official\Mini Project\project\obj\Debug\project.csproj.AssemblyReference.cache
+C:\dotnet_official\Mini Project\project\obj\Debug\project.csproj.CoreCompileInputs.cache
+C:\dotnet_official\Mini Project\project\obj\Debug\project.exe
+C:\dotnet_official\Mini Project\project\obj\Debug\project.pdb

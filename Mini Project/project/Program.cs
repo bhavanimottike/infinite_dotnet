@@ -23,6 +23,7 @@ namespace project
                 Console.WriteLine("Are you a Customer or Admin?");
                 Console.WriteLine("PRESS 1 FOR ADMIN");
                 Console.WriteLine("PRESS 2 FOR CUSTOMER");
+                Console.WriteLine("PRESS 3 FOR EXIT");
                 Console.WriteLine("_________________________");
 
 
@@ -39,7 +40,11 @@ namespace project
                 {
                     Customer.CustomerMenu();
                 }
-                else
+                else if (userType == 3) 
+                {
+                    return;
+                }
+                else 
                 {
                     Console.WriteLine("Invalid input. Please try again.");
                 }
